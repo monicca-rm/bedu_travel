@@ -55,3 +55,15 @@ h2, h3 {
     background-position: center;
     height: 20vh;
 }
+.agrid {
+    border: 1px solid red;
+    height: 300px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.agrid div {
+    border: 1px solid greenyellow;
+    /*tarea: poner las imagenes en las celdas*/
+}
