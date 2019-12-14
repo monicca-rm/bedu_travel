@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.contenedor {
+    background-color: black;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    /* otra opción: flex-direction: column;*/
+    justify-content: right;
+    align-items: stretch;
+    
+}
+.contenedor div {
+    padding: 0.2em 1em;
+    flex-grow: stretch;
+
+}
+.menu {
+    color
+    color: white;
+    font-family: arial;
+    font-size: 1em;
+    align-self: stretch;
+    
+}
+.logo {
+    display: flex;
+    flex: 1;
+}
+.portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: top center;
+    background-image: url("img_cover_home.jpg");
+    background-size: cover;
+    height: 300px;
+
+}
+
+h2, h3 {
+    margin: 0px;
+    color: white;
+    font-family: arial;
+    text-align: center;
+}
+.foto {
+    border: 1px solid red;
+    background-image: url(gdl.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+}
